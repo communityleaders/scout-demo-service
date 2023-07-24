@@ -26,6 +26,13 @@ docker build -t scout-demo:v1 .
 docker run scout-demo:v1
 ```
 
+Access the app:
+
+```
+curl localhost:3000
+Hello World!
+```
+
 
 ## Create and push the repository on Docker Hub:
 
