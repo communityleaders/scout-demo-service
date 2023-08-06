@@ -23,7 +23,7 @@ sh install-scout.sh
 
 ```shell
 docker build -t scout-demo:v1 .
-docker run scout-demo:v1
+docker run -d -p 3000:3000 scout-demo:v1
 ```
 
 Access the app:
